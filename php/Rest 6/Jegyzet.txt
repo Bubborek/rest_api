@@ -1,0 +1,34 @@
+https://medium.com/@stevejacob45678/building-restful-apis-with-php-a-practical-approach-ec97c121d3af
+
+
+
+
+Főbb lépések:
+
+1. Adatbázis beállítása:
+• Adatbázis létrehozása: Hozzunk létre egy MySQL adatbázist, például php_rest_api néven.
+
+• Táblák létrehozása: Hozzunk létre szükséges táblákat, mint például products és categories, a megfelelő mezőkkel.
+2. Projekt struktúra kialakítása:
+• Fő mappa: A projekt gyökérkönyvtára.
+• config mappa: Az adatbázis kapcsolati beállításait tartalmazza.
+• objects mappa: Az adatbázis objektumokat, például a Product és Category osztályokat tartalmazza.
+• API fájlok: Olyan PHP fájlok, mint create_product.php, read_products.php, amelyek az API végpontokat valósítják meg.
+
+3. Adatbázis kapcsolat létrehozása:
+• config/database.php: Tartalmazza az adatbázis kapcsolati információkat és a PDO objektumot a kapcsolódáshoz.
+
+4. Objektumok létrehozása:
+• objects/Product.php: A Product osztály definiálása, amely tartalmazza a CRUD műveletekhez szükséges metódusokat.
+• objects/Category.php: A Category osztály definiálása.
+
+5. API végpontok létrehozása:
+• create_product.php: Kezeli az új termékek létrehozását.
+• read_products.php: Lekérdezi és visszaadja a termékek listáját.
+• update_product.php: Frissíti a meglévő termékek adatait.
+• delete_product.php: Törli a megadott terméket.
+
+6. Kérések kezelése:
+• HTTP metódusok használata: A megfelelő HTTP metódusok (GET, POST, PUT, DELETE) használata az egyes műveletekhez.
+• Fejlécek beállítása: A megfelelő fejlécek beállítása a válaszokban, például Content-Type: application/json.
+

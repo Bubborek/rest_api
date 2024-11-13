@@ -1,0 +1,20 @@
+https://clouddevs.com/php/developing-a-restful-api/
+
+
+
+Gyakorlati REST API fejlesztés modern PHP-vel.
+
+• Főbb Lépések:
+1. Routing: Egy egyszerű routert használnak az API végpontok kezelésére.
+
+2. MVC Architektúra:
+• Models: Adatbázis műveletek (pl. PDO).
+• Views: JSON válaszok.
+• Controllers: Üzleti logika.
+
+3. Adatbázis kapcsolat: PDO alapú kapcsolat egy MySQL adatbázishoz.
+
+4. Middleware: Opcionális hitelesítés vagy naplózás az API végpontok előtt.
+• Tippek:
+• REST API token-alapú hitelesítést javasolnak a biztonság érdekében.
+• Hibakezelés (try-catch) az API megbízhatóságának növelésére.

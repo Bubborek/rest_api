@@ -1,0 +1,23 @@
+https://www.codeofaninja.com/create-simple-rest-api-in-php/
+
+
+Főbb Lépések:
+
+1. Projekt struktúra: A mappa- és fájlstruktúra következetes elrendezése.
+
+• /config: Adatbázis kapcsolat.
+• /objects: Adatmodellek (pl. Product.php).
+• /product: Végpontok (CRUD műveletek külön fájlokban: create, read, update, delete).
+
+2. Adatbázis: MySQL adatbázis létrehozása és PDO kapcsolódás.
+
+3. CRUD műveletek:
+• GET: Adatok listázása.
+• POST: Új rekord létrehozása.
+• PUT: Adatok frissítése.
+• DELETE: Adatok törlése.
+
+4. JSON formátum: Az összes API válasz JSON-ban érkezik.
+• Példa:
+• A products tábla tartalmazza az API által kezelt adatokat.
+• Egy egyszerű read.php fájl segítségével listázhatók az adatok.

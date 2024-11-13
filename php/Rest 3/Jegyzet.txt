@@ -1,0 +1,18 @@
+https://rapidapi.com/guides/build-rest-api-php
+
+Egyszerű RESTful API készítése PHP-vel.
+
+Főbb Lépések:
+
+1. Projekt előkészítés:
+• Szükséges környezet: PHP, Apache/Nginx szerver, MySQL.
+
+2. Routing: Az URI szegmensek alapján dönt, hogy melyik végpontot hívja meg.
+
+3. HTTP metódusok: Kezelésük PHP segítségével ($_SERVER['REQUEST_METHOD']).
+
+4. Adatbázis kapcsolat: PDO használata az adatok biztonságos kezelésére.
+• Példa végpontok:
+• GET, POST, PUT, DELETE műveletek kezelése egy egyszerű “products” táblával.
+• Tippek:
+• JSON válaszokat ad, és ellenőrzi a HTTP fejléceket (Content-Type: application/json).
